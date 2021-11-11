@@ -1,0 +1,17 @@
+{
+    "name": "amasty_hamenok/module-hamenok",
+    "description": "First my module",
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amasty_Hamenok\\module_hamenok\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
